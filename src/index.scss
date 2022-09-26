@@ -1,0 +1,53 @@
+:root {
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+body {
+  font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: 0;
+  color: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  background-color: none;
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-within,
+button:focus-visible {
+  outline: 0;
+}
